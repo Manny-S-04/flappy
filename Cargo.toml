@@ -1,0 +1,11 @@
+[package]
+name = "flappy"
+version = "0.1.0"
+edition = "2024"
+description = "flappy-style game on top of the renderer rasterizer"
+
+[dependencies]
+renderer = { path = "../GITHUB/renderer" }
+
+[profile.release]
+debug = 1
